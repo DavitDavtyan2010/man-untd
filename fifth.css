@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+html {
+    font-size: 10px;
+    background-image: url(https://wallpapercave.com/wp/wp3197369.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav a {
+    color: #fff;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #f42;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+section {
+    margin: 50px auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.mun {
+    display: flex;
+    width: 18%;
+}
+
+.mun:hover {
+    background-color: #f42;
+    cursor: pointer;
+}
+
+section div {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+section div span {
+    font-size: 2rem;
+}
+
+.cr {
+    font-size: 1px;
+    color: #f42;
+    margin-left: 250px;
+    width: 10px;
+    height: 10px;
+    background-color: #f42;
+    position: absolute;
+    animation-name: cr;
+    animation-delay: 0.5s;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;    
+}
+
+@keyframes cr {
+    100% {
+        width: 65%;
+        color: #fff;
+        font-size: 2rem;
+    }
+}
+
+.bf {
+    font-size: 1px;
+    color: #f42;
+    margin-left: 250px;
+    width: 10px;
+    height: 10px;
+    background-color: #f42;
+    position: absolute;
+    animation-name: bf;
+    animation-delay: 4.5s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bf {
+    100% {
+        width: 50%;
+        color: #fff;
+        font-size: 2rem;
+    }
+}
+
+.mg {
+    font-size: 1px;
+    color: #f42;
+    margin-left: 250px;
+    width: 10px;
+    height: 10px;
+    background-color: #f42;
+    position: absolute;
+    animation-name: mg;
+    animation-delay: 8.5s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;    
+}
+
+@keyframes mg {
+    100% {
+        width: 35%;
+        color: #fff;
+        font-size: 2rem;
+    }
+}
+
+.mr {
+    font-size: 1px;
+    color: #f42;
+    margin-left: 250px;
+    width: 10px;
+    height: 10px;
+    background-color: #f42;
+    position: absolute;
+    animation-name: mr;
+    animation-delay: 13.5s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;    
+}
+
+@keyframes mr {
+    100% {
+        width: 30%;
+        color: #fff;
+        font-size: 2rem;
+    }
+}
+
+.js {
+    font-size: 1px;
+    color: #f42;
+    margin-left: 250px;
+    width: 10px;
+    height: 10px;
+    background-color: #f42;
+    position: absolute;
+    animation-name: js;
+    animation-delay: 17.5s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;    
+}
+
+@keyframes js {
+    100% {
+        width: 20%;
+        color: #fff;
+        font-size: 2rem;
+    }
+}
