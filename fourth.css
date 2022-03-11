@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+}
+
+html {
+    font-size: 10px;
+    background-image: url(https://wallpapercave.com/wp/wp3197369.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+nav a {
+    color: #fff;
+    font-size: 2rem;
+    padding: 20px;
+}
+
+nav a:hover {
+    background-color: #f42;
+}
+
+h1 {
+    font-size: 5rem;
+    color: #fff;
+    margin-top: 10.5vh;
+    text-align: center;
+}
+
+section {
+    margin: 50px auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+
+.mun {
+    display: flex;
+    width: 18%;
+}
+
+.mun:hover {
+    background-color: #f42;
+    cursor: pointer;
+}
+
+section div {
+    display: flex;
+    width: 36%;
+}
+
+section div span {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    padding: 0 5px;
+}
+
+section span {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+}
